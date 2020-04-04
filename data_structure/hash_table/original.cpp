@@ -8,7 +8,7 @@ using namespace std;
 class HashTable{
     private:
         static const int hashGroups = 10;
-        list<pair<int,string>> table[hashGroups]; // this is contain all of the lists?
+        list<pair<int,string>> table[hashGroups];
 
     public:
         bool isEmpty() const;

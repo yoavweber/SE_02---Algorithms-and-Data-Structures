@@ -4,17 +4,17 @@
 using namespace std;
 
 int main() {
-    LinkList Yoav;
+    LinkList List;
 
-    Yoav.AddNode(3);
-    Yoav.AddNode(5);
-    Yoav.AddNode(7);
+    List.AddNode(3);
+    List.AddNode(5);
+    List.AddNode(7);
 
-    Yoav.PrindList();
+    List.PrintList();
 
     Yoav.DeleteNode(3);
 
-    Yoav.PrindList();
+    Yoav.PrintList();
 
     return 1;
 }

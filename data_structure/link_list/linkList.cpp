@@ -55,7 +55,7 @@ void LinkList::DeleteNode(int delData) {
 
 }
 
-void LinkList::PrindList() {
+void LinkList::PrintList() {
     curr = head;
      while(curr != NULL) {
         cout << curr->data << endl;

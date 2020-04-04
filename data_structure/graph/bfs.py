@@ -37,7 +37,6 @@ def getConnectedNodesList(NodeList):
 
 def bfs(NodeList,node):
     queue = Queue(node)
-    # queue.add(node)
     visitedNodes = set()
 
     while queue.isEmpty() == False:

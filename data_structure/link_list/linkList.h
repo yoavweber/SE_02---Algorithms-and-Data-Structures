@@ -16,7 +16,7 @@ class LinkList{
         LinkList();
         void AddNode(int addData);
         void DeleteNode(int delData);
-        void PrindList();
+        void PrintList();
 
 };
 
